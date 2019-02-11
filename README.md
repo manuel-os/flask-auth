@@ -1,0 +1,1 @@
+#Just a simple microblog using Flask framework

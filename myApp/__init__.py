@@ -26,6 +26,8 @@ def create_app(config_class=Config):
     from myApp.users.routes import users
     from myApp.posts.routes import posts
     from myApp.main.routes import main
+    from myApp.errors.handlers import errors
+    app.register_blueprint(errors)
     app.register_blueprint(users)
     app.register_blueprint(posts)
     app.register_blueprint(main)
