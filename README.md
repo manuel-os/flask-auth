@@ -1,1 +1,1 @@
-#Just a simple microblog using Flask framework
+# Just a simple microblog for learning Flask framework
